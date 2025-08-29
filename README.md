@@ -35,13 +35,13 @@ cd a4a-asmnt
 2. **Install dependencies**
 
 ```bash
-cp .env.example .env
-php artisan key:generate
+composer install
 ```
 
 3. **Set up environment**
 
 ```bash
+cp .env.example .env
 php artisan key:generate
 ```
 
