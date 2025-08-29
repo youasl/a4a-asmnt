@@ -14,6 +14,7 @@ Route::fallback(function() {
     return response()->json($result, 404);
 });
 
+//These routes handle CRUD operations for crops and crop diseases.
 Route::post('/crops/diseases', [CropsDiseasesController::class, 'store']);
 Route::get('/crops/diseases', [CropsDiseasesController::class, 'index']);
 Route::get('/crops/diseases/{id}', [CropsDiseasesController::class, 'show']);
