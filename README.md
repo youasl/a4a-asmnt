@@ -2,6 +2,11 @@
 
 This is a simple API to manage crops and it's related diseases.
 
+## Requirements
+
+* PHP **8.1+**
+* Composer
+
 ## Endpoints
 
 ### Crops
@@ -45,7 +50,7 @@ php artisan key:generate
 php artisan serve
 ```
 
-Your API will be available at `http://127.0.0.1:8000/api`.
+This Crops API will be available at `http://127.0.0.1:8000/api/crops`.
 
 ## Project Structure and Relevant Files
 
