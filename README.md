@@ -1,22 +1,22 @@
 # Crops API
 
-This is a simple API to manage crops and crop diseases.
+This is a simple API to manage crops and it's related diseases.
 
 ## Endpoints
 
 ### Crops
 
-* `POST /crops` – Create a new crop
-* `GET /crops` – List all crops
-* `GET /crops/{id}` – Get a specific crop
-* `PATCH /crops/{id}` – Update a specific crop
+* `POST /api/crops` – Create a new crop
+* `GET /api/crops` – List all crops
+* `GET /api/crops/{id}` – Get a specific crop
+* `PATCH /api/crops/{id}` – Update a specific crop
 
 ### Crop Diseases
 
-* `POST /crops/diseases` – Create a new crop disease
-* `GET /crops/diseases` – List all crop diseases
-* `GET /crops/diseases/{id}` – Get a specific crop disease
-* `PATCH /crops/diseases/{id}` – Update a specific crop disease
+* `POST /api/crops/diseases` – Create a new crop disease
+* `GET /api/crops/diseases` – List all crop diseases
+* `GET /api/crops/diseases/{id}` – Get a specific crop disease
+* `PATCH /api/crops/diseases/{id}` – Update a specific crop disease
 
 ## Installation
 
